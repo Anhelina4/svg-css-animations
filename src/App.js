@@ -1,6 +1,6 @@
 import {
+  Logo,
   RevealingText,
-  SenseteqLogo,
   SocialMedia,
   TextAnimated,
   Texture,
@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       {/* <TextAnimated/> */}
       {/* <SocialMedia/> */}
-      {/* <SenseteqLogo/> */}
-      {/* <TextureText/> */}
-      <RevealingText />
+      {/* <Logo/> */}
+      <TextureText/>
+      {/* <RevealingText /> */}
     </div>
   );
 }

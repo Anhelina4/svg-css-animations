@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import { LogoWrapper } from './Logo.styled'
+import React from 'react'
 
-import { LogoWrapper } from './SenseteqLogo.styled'
-
-const SenseteqLogo = () => {
+const Logo = () => {
   let senseLength = document?.querySelector('.sense-length')?.getTotalLength()
 console.log("senseLength", senseLength)
   return (
@@ -35,4 +34,4 @@ console.log("senseLength", senseLength)
   )
 }
 
-export default SenseteqLogo
+export default Logo
